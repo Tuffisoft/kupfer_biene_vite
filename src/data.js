@@ -1,7 +1,7 @@
 const data = {
     products: [{
-            name: "Kupferbiene Honig Sommertracht",
-            slug: "kupferbiene-honig-sommertracht",
+            name: "Sommertracht",
+            slug: "sommertracht",
             kategorie: "honig",
             image: "/images/sommertracht.png",
             preis: 5.99,
@@ -11,8 +11,8 @@ const data = {
             menge: "500gr",
         },
         {
-            name: "Kupferbiene Honig Frühtracht",
-            slug: "kupferbiene-honig-frühtracht",
+            name: "Frühtracht",
+            slug: "frühtracht",
             kategorie: "honig",
             image: "/images/frühtracht.png",
             preis: 5.99,
@@ -22,4 +22,6 @@ const data = {
             menge: "500gr",
         }
     ]
-}
+};
+
+export default data;

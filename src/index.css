@@ -1,8 +1,51 @@
 * {
   margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: #B87332;
+}
+
+main {
+  padding: 2rem;
+}
+
+header {
+  background-color: #dabead;
 }
 
 .headerLogo {
-  width: 5rem;
-  padding: 5rem;
+  width: 7rem;
+  padding: 3rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 2px #BF947A solid;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.product img {
+  width: 300px;
+}
+
+.product-info {
+  margin: 2rem;
+  font-size: larger;
+  font-weight: 400;
+}
+
+button {
+  border: 1px #B87332 solid;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0);
 }
